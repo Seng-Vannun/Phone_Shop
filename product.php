@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Seng Laptop Product</title>
+    <title>Tech Phone Shop Product</title>
+    <link rel="icon" href="Product_img/logo.png">
     <!-- fontawesome cdn -->
     <link
       rel="stylesheet"
@@ -17,6 +18,13 @@
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
     <!-- custom css -->
     <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- navbar -->
@@ -28,7 +36,7 @@
         >
           <img src="Product_img/logo.png" alt="site icon" />
           <span class="text-uppercase fw-lighter ms-2" style="color: white"
-            >Seng Laptop</span
+            >Tech Phone Shop</span
           >
         </a>
 
@@ -78,7 +86,7 @@
             <li class="nav-item px-2 py-2">
               <a
                 class="nav-link text-uppercase text-light"
-                href="index.html"
+                href="index.php"
                 style="color: white"
                 >home</a
               >
@@ -173,257 +181,80 @@
             </button>
           </div>
 
-          <div class="collection-list mt-4 row gx-0 gy-3">
-            <div class="col-md-6 col-lg-4 col-xl-3 p-2 laptop">
-              <div class="collection-img position-relative">
-                <img src="Product_img/asus_laptop1.png" class="w-100" />
-              </div>
-              <div class="text-center">
-                <div class="rating mt-3">
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                </div>
-                <p class="text-capitalize my-1">ASUS ROG STRIX LAPTOP</p>
-                <span class="fw-bold">$ 2,499.00<br /></span>
-                <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
-              </div>
-            </div>
+      <!--First section-->
 
-            <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat laptop">
-              <div class="collection-img position-relative">
-                <img src="Product_img/asus_laptop2.png" class="w-100" />
-              </div>
-              <div class="text-center">
-                <div class="rating mt-3">
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                </div>
-                <p class="text-capitalize my-1">Asus Laptop 2</p>
-                <span class="fw-bold">$ 2000.00<br /></span>
-                <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
-              </div>
+       <section id="special" class="py-5">
+      <div class="container">
+     
+        <div class="special-list row g-0 mouse">
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+            <div class="special-img position-relative overflow-hidden">
+              <img src="ps_photo/logitech_headphone1.png" class="w-100" />
+              <span
+                class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4"
+              >
+           
+              </span>
             </div>
+            <div class="text-center">
+              <p class="text-capitalize mt-3 mb-1">Logitech Headphone</p>
+              <span class="fw-bold d-block">$ 119.00</span>
+              <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+            </div>
+          </div>
 
-            <div class="col-md-6 col-lg-4 col-xl-3 p-2 laptop">
-              <div class="collection-img position-relative">
-                <img src="Product_img/razer_latop1.png" class="w-100" />
-              </div>
-              <div class="text-center">
-                <div class="rating mt-3">
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                </div>
-                <p class="text-capitalize my-1">Razer Blade 15</p>
-                <span class="fw-bold">$ 2999.99<br /></span>
-                <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
-              </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+            <div class="special-img position-relative overflow-hidden">
+              <img src="ps_photo/logitech_mouse1.png" class="w-100" />
+              <span
+                class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4"
+              >
+           
+              </span>
             </div>
+            <div class="text-center">
+              <p class="text-capitalize mt-3 mb-1">Logitech Mouse</p>
+              <span class="fw-bold d-block">$ 89.99</span>
+              <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+            </div>
+          </div>
 
-            <div class="col-md-6 col-lg-4 col-xl-3 p-2 laptop">
-              <div class="collection-img position-relative">
-                <img src="Product_img/razer_laptop2.png" class="w-100" />
-              </div>
-              <div class="text-center">
-                <div class="rating mt-3">
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                </div>
-                <p class="text-capitalize my-1">Razer Blade 15</p>
-                <span class="fw-bold"
-                  >$ 2499.99<br />
-                  <a href="#" class="btn btn-primary mt-3">Add to Cart</a></span
-                >
-              </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+            <div class="special-img position-relative overflow-hidden">
+              <img src="ps_photo/Monitor1.png" class="w-100" />
+              <span
+                class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4"
+              >
+           
+              </span>
             </div>
+            <div class="text-center">
+              <p class="text-capitalize mt-3 mb-1">Msi Monitor</p>
+              <span class="fw-bold d-block">$ 250.00</span>
+              <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+            </div>
+          </div>
 
-            <div class="col-md-6 col-lg-4 col-xl-3 p-2 headphone">
-              <div class="collection-img position-relative">
-                <img src="Product_img/logitech_headphone1.png" class="w-100" />
-              </div>
-              <div class="text-center">
-                <div class="rating mt-3">
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                </div>
-                <p class="text-capitalize my-1">Logiteh Headphone 1</p>
-                <span class="fw-bold">$ 45.50<br />
-                  <a href="#" class="btn btn-primary mt-3">Add to Cart</a></span</span>
-              </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+            <div class="special-img position-relative overflow-hidden">
+              <img src="ps_photo/razer_headphone1.png" class="w-100" />
+              <span
+                class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4"
+              >
+           
+              </span>
             </div>
-
-            <div class="col-md-6 col-lg-4 col-xl-3 p-2 headphone">
-              <div class="collection-img position-relative">
-                <img src="Product_img/logitech_headphone2.png" class="w-100" />
-              </div>
-              <div class="text-center">
-                <div class="rating mt-3">
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                </div>
-                <p class="text-capitalize my-1">Logitech Headphone</p>
-                <span class="fw-bold">$ 99.99<br />
-                  <a href="#" class="btn btn-primary mt-3">Add to Cart</a></span</span>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4 col-xl-3 p-2 headphone">
-              <div class="collection-img position-relative">
-                <img src="Product_img/msi_headphone1.png" class="w-100" />
-              </div>
-              <div class="text-center">
-                <div class="rating mt-3">
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                </div>
-                <p class="text-capitalize my-1">MSI Headphone 1</p>
-                <span class="fw-bold">$ 39.99<br />
-                  <a href="#" class="btn btn-primary mt-3">Add to Cart</a></span</span>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4 col-xl-3 p-2 headphone">
-              <div class="collection-img position-relative">
-                <img src="Product_img/msi_headphone2.png" class="w-100" />
-              </div>
-              <div class="text-center">
-                <div class="rating mt-3">
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                </div>
-                <p class="text-capitalize my-1">MSI Headphone 2</p>
-                <span class="fw-bold">$ 45.50<br />
-                  <a href="#" class="btn btn-primary mt-3">Add to Cart</a></span</span>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-3 p-2 headphone">
-              <div class="collection-img position-relative">
-                <img src="Product_img/razer_headphone1.png" class="w-100" />
-              </div>
-              <div class="text-center">
-                <div class="rating mt-3">
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                </div>
-                <p class="text-capitalize my-1">Razer Headphone 1</p>
-                <span class="fw-bold">$ 95.50<br />
-                  <a href="#" class="btn btn-primary mt-3">Add to Cart</a></span</span>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-3 p-2 headphone">
-              <div class="collection-img position-relative">
-                <img src="Product_img/razer-headphone2.png" class="w-100" />
-              </div>
-              <div class="text-center">
-                <div class="rating mt-3">
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                </div>
-                <p class="text-capitalize my-1">Razer Headphone 2</p>
-                <span class="fw-bold">$ 45.50<br />
-                  <a href="#" class="btn btn-primary mt-3">Add to Cart</a></span</span>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-3 p-2 mouse">
-              <div class="collection-img position-relative">
-                <img src="Product_img/logitech_mouse1.png" class="w-100" />
-              </div>
-              <div class="text-center">
-                <div class="rating mt-3">
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                </div>
-                <p class="text-capitalize my-1">Logitech Light Speed</p>
-                <span class="fw-bold">$ 95.50<br />
-                  <a href="#" class="btn btn-primary mt-3">Add to Cart</a></span</span>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-3 p-2 mouse">
-              <div class="collection-img position-relative">
-                <img src="Product_img/logitech_mouse2.png" class="w-100" />
-              </div>
-              <div class="text-center">
-                <div class="rating mt-3">
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                </div>
-                <p class="text-capitalize my-1">Logitech G35</p>
-                <span class="fw-bold">$ 45.50<br />
-                  <a href="#" class="btn btn-primary mt-3">Add to Cart</a></span</span>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-3 p-2 monitor">
-              <div class="collection-img position-relative">
-                <img src="Product_img/monitor1.png" class="w-100" />
-              </div>
-              <div class="text-center">
-                <div class="rating mt-3">
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                </div>
-                <p class="text-capitalize my-1">Msi Monitor</p>
-                <span class="fw-bold">$ 150.00<br />
-                  <a href="#" class="btn btn-primary mt-3">Add to Cart</a></span</span>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-3 p-2 monitor">
-              <div class="collection-img position-relative">
-                <img src="Product_img/monitor2.png" class="w-100" />
-              </div>
-              <div class="text-center">
-                <div class="rating mt-3">
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                  <span class="text-primary"><i class="fas fa-star"></i></span>
-                </div>
-                <p class="text-capitalize my-1">Msi Monitor</p>
-                <span class="fw-bold">$ 245.50<br />
-                  <a href="#" class="btn btn-primary mt-3">Add to Cart</a></span</span>
-              </div>
+            <div class="text-center">
+              <p class="text-capitalize mt-3 mb-1">Razer Headphone</p>
+              <span class="fw-bold d-block">$ 90.00</span>
+              <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
             </div>
           </div>
         </div>
       </div>
+    </section>
+
+          
     </section>
     <!-- end of collection -->
     <!-- footer -->
@@ -433,8 +264,8 @@
           <div class="col-md-6 col-lg-3">
             <a
               class="text-uppercase text-decoration-none brand text-white"
-              href="index.html"
-              >Seng Laptop</a
+              href="index.php"
+              >Tech Phone Shop</a
             >
             <p class="text-white text-muted mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
@@ -487,7 +318,7 @@
               <span class="me-3">
                 <i class="fas fa-envelope"></i>
               </span>
-              <span class="fw-light"> Seng_Laptop.support@gmail.com </span>
+              <span class="fw-light">Tech_Phone_Shop.support@gmail.com </span>
             </div>
             <div
               class="d-flex justify-content-start align-items-start my-2 text-muted"

@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Seng Laptop</title>
+    <title>Tech Phone Shop</title>
+    <link rel="icon" href="Product_img/logo.png">
     <!-- fontawesome cdn -->
     <link
       rel="stylesheet"
@@ -28,7 +29,7 @@
         >
           <img src="Product_img/logo.png" alt="site icon" />
           <span class="text-uppercase fw-lighter ms-2" style="color: white"
-            >Seng Laptop</span
+            >Tech Phone Shop</span
           >
         </a>
 
@@ -86,7 +87,7 @@
             <li class="nav-item px-2 py-2">
               <a
                 class="nav-link text-uppercase text-light"
-                href="product.html"
+                href="product.php"
                 style="color: white"
                 >product</a
               >
@@ -175,7 +176,7 @@
         <div class="special-list row g-0">
           <div class="col-md-6 col-lg-4 col-xl-3 p-2">
             <div class="special-img position-relative overflow-hidden">
-              <img src="ps_photo/logitech_headphone1.png" class="w-100" />
+             <a href="FrontEnd/productdetail.php"> <img src="ps_photo/logitech_headphone1.png" class="w-100" /></a>
               <span
                 class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4"
               >
@@ -456,7 +457,7 @@
         >
           <div class="title text-center pt-3 pb-5">
             <h2 class="position-relative d-inline-block ms-4">
-              Gaming Subscription
+            Tech Phone Shop Subscription
             </h2>
           </div>
 
@@ -485,7 +486,7 @@
             <a
               class="text-uppercase text-decoration-none brand text-white"
               href="index.html"
-              >Seng Laptop</a
+              >Tech Phone Shop</a
             >
             <p class="text-white text-muted mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
@@ -538,7 +539,7 @@
               <span class="me-3">
                 <i class="fas fa-envelope"></i>
               </span>
-              <span class="fw-light"> Seng_Laptop.support@gmail.com </span>
+              <span class="fw-light"> Tech_Phone_Shop.support@gmail.com </span>
             </div>
             <div
               class="d-flex justify-content-start align-items-start my-2 text-muted"
